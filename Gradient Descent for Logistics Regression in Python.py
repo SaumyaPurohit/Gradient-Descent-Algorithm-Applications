@@ -80,24 +80,5 @@ if __name__ == '__main__':
     y_pred = classifier.predict(X_test)
     print(accuracy_score(y_test, y_pred))
     print(Logistics_Regression(X_train, y_train, 1, 1000000))
-    #print(abc)
     print(accuracy_LR(X_train,y_train, 1, 1000000, X_test, y_test))
-    #print(vbn)
-    
-    
-
-    
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+   
